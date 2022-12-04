@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>My sneakers store</title>
   </head>
   <body>
     <header></header>
@@ -12,29 +16,89 @@
     <main>
       <p>My sneakers</p>
 
-      <form action="">
+      <form name="purchase" action="">
         <fieldset>
           <legend>Purchase informations</legend>
           <p>
             <label for="customer_name">Your name</label>
             <input type="text" name="customer_name" id="customer_name" />
+            <span class="error" id="customer_name_error"></span>
           </p>
 
           <p>
-            <label for="customer_birth_date"></label>
+            <label for="customer_birth_date">Birth date</label>
             <input
               type="date"
-              name="custome_birth_date"
-              id="custome_birth_date"
+              name="customer_birth_date"
+              id="customer_birth_date"
             />
+            <span class="error" id="customer_birth_date_error"></span>
           </p>
 
           <p>
-            <label for=""></label>
+            <label for="customer_phone">Phone</label>
+            <input type="text" name="customer_phone" id="customer_phone" />
+            <span class="error" id="customer_phone_error"></span>
+          </p>
+
+          <p>
+            <label for="customer_address"></label>
+            <input type="text" name="customer_address" id="customer_address" />
+            <span class="error" id="customer_address_error"></span>
+          </p>
+
+          <p>
+            <label for="customer_province">Province</label>
+            <datalist id="customer_province">
+              <option value="AB">Alberta</option>
+              <option value="BC">British Columbia</option>
+              <option value="MB">Manitoba</option>
+              <option value="NB">New Brunswick</option>
+              <option value="NL">Newfoundland and Labrador</option>
+              <option value="NS">Nova Scotia</option>
+              <option value="ON">Ontario</option>
+              <option value="PE">Prince Edward Island</option>
+              <option value="QC">Quebec</option>
+              <option value="SK">Saskatchewan</option>
+              <option value="NT">Northwest Territories</option>
+              <option value="NU">Nunavut</option>
+              <option value="YT">Yukon</option>
+            </datalist>
+            <span class="error" id="customer_province_error"></span>
+          </p>
+
+          <p>
+            <label for="newsletter"
+              >Do you want to receive an email with our discounts?</label
+            >
+            <input type="radio" name="newsletter" id="yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" name="newsletter" id="no" />
+            <label for="no">No</label>
+            <span class="error" id="customer_newsletter_error"></span>
+          </p>
+
+          <p>
+            <label for="customer_size">Your shoes's sise</label>
+            <input type="number" name="customer_size" id="customer_size" />
+            <span class="error" id="customer_size_error"></span>
+          </p>
+
+          <p>
+            <label for="final_amount">Your total($CAD)</label>
+            <input type="text" id="final_amount" />
+          </p>
+
+          <p>
+            <button type="submit" id="btn_submit">Submit</button>
+            <button type="reset" id="btn_reset">Reset</button>
           </p>
         </fieldset>
       </form>
+
+      <section class="gallery" id="gallery"></section>
     </main>
     <!-- All images were borrow from: https://unsplash.com/ -->
+    <script src="/scripts/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Roboto;
+  src: url("/font/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto-medium;
+  src: url("/font/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-thin;
+  src: url("/font/Roboto-Thin.ttf");
+}
+
+body {
+  font-family: Roboto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 17px;
+}
+
+.card img {
+  width: 200px;
+  height: 270px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+
+.item-name,
+.item-price,
+.item-quantity,
+.item-quantity-low {
+  padding: 0 10px;
+}
+
+.item-name {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.item-price,
+.item-quantity,
+.item-quantity-low {
+  font-size: 16px;
+  font-family: Roboto-thin;
+  font-weight: 700;
+}
+
+.item-quantity,
+.item-quantity-low {
+  margin-top: -12px;
+}
+
+.item-quantity {
+  color: gray;
+}
+
+.item-quantity-low {
+  color: red;
+}
+
+.error {
+  color: red;
+}

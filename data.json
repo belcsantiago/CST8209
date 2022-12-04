@@ -1,0 +1,86 @@
+[
+  {
+    "id": "basketball-snearkers",
+    "name": "Main basketball",
+    "price": 160.0,
+    "quantity": 2
+  },
+  {
+    "id": "black-blue-sneakers",
+    "name": "Black & blue",
+    "price": 116.0,
+    "quantity": 1
+  },
+  {
+    "id": "black-white-sneakers",
+    "name": "Black & white",
+    "price": 130.0,
+    "quantity": 2
+  },
+  {
+    "id": "colorful-sneakers",
+    "name": "Happy feet",
+    "price": 166.0,
+    "quantity": 1
+  },
+  {
+    "id": "dark-blue-sneakers",
+    "name": "Dark blue",
+    "price": 116.0,
+    "quantity": 1
+  },
+  {
+    "id": "dark-pink-sneakers",
+    "name": "Dark pink",
+    "price": 190.0,
+    "quantity": 2
+  },
+  {
+    "id": "gray-sneakers",
+    "name": "Simple gray",
+    "price": 120.0,
+    "quantity": 1
+  },
+  {
+    "id": "impact-sneakers",
+    "name": "Impact",
+    "price": 130.0,
+    "quantity": 2
+  },
+  {
+    "id": "light-color-sneaker",
+    "name": "light-color-sneaker",
+    "price": 116.0,
+    "quantity": 1
+  },
+  {
+    "id": "miles-sneakers",
+    "name": "miles-sneakers",
+    "price": 116.0,
+    "quantity": 1
+  },
+  {
+    "id": "new-air-sneakers",
+    "name": "new-air-sneakers",
+    "price": 130.0,
+    "quantity": 2
+  },
+  {
+    "id": "old-style-sneakers",
+    "name": "old-style-sneakers",
+    "price": 116.0,
+    "quantity": 1
+  },
+  {
+    "id": "spider-man-sneaker",
+    "name": "spider-man-sneaker",
+    "price": 116.0,
+    "quantity": 1
+  },
+  {
+    "id": "white-sneaker",
+    "name": "white-sneaker",
+    "price": 116.0,
+    "quantity": 1
+  }
+]
